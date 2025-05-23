@@ -7,7 +7,7 @@ const Rules = ({gridDimensions, showRules,setShowRules}) => {
         position: 'relative',
         top: `${Math.floor(gridDimensions.rows / 2) * 20}px`,
         left: `${Math.floor(gridDimensions.cols / 2) * 20}px`,
-        transform: 'translate(-50%, -49%)',
+        transform: 'translate(-50%, -47%)',
         backgroundColor: '#121212',
         color: '#fff',
         border: '2px solid #00ff88',
@@ -42,8 +42,7 @@ const Rules = ({gridDimensions, showRules,setShowRules}) => {
             ✖️
         </button>
 
-        <p>The SerpentBot utilizes a Breadth-First Search (BFS) algorithm enhanced with the Manhattan distance heuristic to efficiently locate the nearest prey without crossing its own body. If no valid moves remain, it will halt to avoid collision.</p>
-            
+        <p>The <strong>SerpentBot</strong> utilizes a <strong>Breadth-First Search (BFS) algorithm</strong> enhanced with the <strong>Manhattan distance heuristic</strong> to efficiently locate the nearest prey without crossing its own body. If no valid moves remain, it will halt to avoid collision.</p>      
         <p>🔴 You can generate prey by <strong>"Clicking"</strong> anywhere in the <strong>"Play Area"</strong> or by using the <strong>"Add 10 Prey"</strong> button.</p> 
         <p>👽 Click <strong>"Serpent Sense"</strong> to let the bot automatically navigate to the closest prey. Even while it's moving, you can add new prey — the bot will dynamically recalculate its path.</p>
         <p>⌨️ For full manual control, click <strong>"Keyboard Control"</strong>. You can use the arrow keys at any time. If <strong>"Serpent Sense"</strong> is active, you can still influence direction mid-path, but full control returns once it stops.</p>
