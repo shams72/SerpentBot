@@ -46,7 +46,7 @@ Runs the app in development mode.
 
 ## Game Controls
 
-The snake operates autonomously, but you can also use keyboard Arrow controls to influence its movement during autonomous play
+The snake operates autonomously, but you can also use keyboard Arrow controls to influence its movement during autonomous play.
 
 
 
