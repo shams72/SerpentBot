@@ -7,7 +7,7 @@ const Rules = ({gridDimensions, showRules,setShowRules}) => {
         position: 'relative',
         top: `${Math.floor(gridDimensions.rows / 2) * 20}px`,
         left: `${Math.floor(gridDimensions.cols / 2) * 20}px`,
-        transform: 'translate(-50%, -48%)',
+        transform: 'translate(-50%, -49%)',
         backgroundColor: '#121212',
         color: '#fff',
         border: '2px solid #00ff88',
