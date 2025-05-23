@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/shams72/SnakeBot.git/static/css/main.bb3bebc2.css",
-    "main.js": "/shams72/SnakeBot.git/static/js/main.6288a1f7.js",
-    "static/js/453.0179cf6b.chunk.js": "/shams72/SnakeBot.git/static/js/453.0179cf6b.chunk.js",
-    "static/media/logo.svg": "/shams72/SnakeBot.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/shams72/SnakeBot.git/index.html",
-    "main.bb3bebc2.css.map": "/shams72/SnakeBot.git/static/css/main.bb3bebc2.css.map",
-    "main.6288a1f7.js.map": "/shams72/SnakeBot.git/static/js/main.6288a1f7.js.map",
-    "453.0179cf6b.chunk.js.map": "/shams72/SnakeBot.git/static/js/453.0179cf6b.chunk.js.map"
+    "main.css": "/SnakeBot/static/css/main.bb3bebc2.css",
+    "main.js": "/SnakeBot/static/js/main.c329511a.js",
+    "static/js/453.0179cf6b.chunk.js": "/SnakeBot/static/js/453.0179cf6b.chunk.js",
+    "static/media/logo.svg": "/SnakeBot/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/SnakeBot/index.html",
+    "main.bb3bebc2.css.map": "/SnakeBot/static/css/main.bb3bebc2.css.map",
+    "main.c329511a.js.map": "/SnakeBot/static/js/main.c329511a.js.map",
+    "453.0179cf6b.chunk.js.map": "/SnakeBot/static/js/453.0179cf6b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bb3bebc2.css",
-    "static/js/main.6288a1f7.js"
+    "static/js/main.c329511a.js"
   ]
 }
