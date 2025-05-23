@@ -19,7 +19,6 @@ The SerpentBot employs a Breadth-First Search (BFS) algorithm combined with the 
 
 ### Prerequisites
 - Node.js 
-- npm or yarn package manager
 
 ### Installation
 
