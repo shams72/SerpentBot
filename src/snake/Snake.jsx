@@ -275,19 +275,23 @@ const Snake = () => {
 
   return (
     <>
-    <div
-      style={{
-        position: 'fixed',
-        top: '4%',
-        left: '50%',
-        transform: 'translateX(-50%)',
-        display: 'flex',
-        gap: '20px',
-        zIndex: 1000,
-        flexWrap: 'wrap',
-        justifyContent: 'center',
-      }}
-    >
+<div
+  style={{
+    position: 'fixed',
+    top: '4%',
+    left: '50%',
+    transform: 'translateX(-50%)',
+    display: 'flex',          
+    border:"2px solid red",
+    width:"80%",
+    gap: '20px',
+    zIndex: 1000,
+    flexDirection: 'row',      
+    alignItems: 'center',      
+    justifyContent: 'center',  
+  }}
+>
+
       {/* 📜 dAh Rulez */}
       <button
         onClick={() => setShowRules(!showRules)}
