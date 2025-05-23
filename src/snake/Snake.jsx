@@ -5,12 +5,8 @@ import Rules from './rules';
 
 const Snake = () => {
   const playArea = useRef(null);
-  const snakeRef = useRef([
-    { x: 35, y: 15 },
-    { x: 34, y: 15 },
-    { x: 33, y: 15 },
-  ]);
-  
+  const snakeRef = useRef([]);
+ 
   const applesRef = useRef([]);
   const gridSize = 20; 
   const [_, setRenderTick] = useState(0);
@@ -29,6 +25,14 @@ const Snake = () => {
         const rows = Math.floor(height / gridSize);
         setGridDimensions({ cols, rows });
         gridRef.current = {cols,rows};
+        const centerX = Math.floor(cols / 2);
+        const centerY = Math.floor(rows / 2);
+
+        snakeRef.current = [
+          { x: centerX, y: centerY },
+          { x: centerX - 1, y: centerY },
+          { x: centerX - 2, y: centerY },
+        ];
       }
     };
 
@@ -337,7 +341,7 @@ const Snake = () => {
           e.currentTarget.style.transform = 'scale(1)';
         }}
       >
-         {autoMoveIntervalRef.current ?  'Keyboard Control' : 'Serpent Sense'}
+         {autoMoveIntervalRef.current ?  '⌨️ Keyboard Control' : '👽 Serpent Sense'}
       </button>
 
       {/* 🔴 Add 10 Prey */}
