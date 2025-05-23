@@ -42,7 +42,7 @@ const Rules = ({showRules,setShowRules}) => {
         </button>
 
         <p>
-            🐍 <strong>SnakeBot</strong> uses the Breadth-First Search (BFS) algorithm to locate the nearest apple without crossing its own body.
+            <strong>SnakeBot</strong> uses the Breadth-First Search (BFS) algorithm to locate the nearest apple without crossing its own body.
             <br /><br />
             🍎 You can generate apples by <strong>"Clicking"</strong> anywhere in the play area or by using the <strong>"Add 10 Apples"</strong> button.
             <br /><br />

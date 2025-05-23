@@ -105,7 +105,7 @@ const Snake = () => {
       autoMoveIntervalRef.current = setInterval(() => {
         const direction = calculateNextMove();
         direction ? moveSnake(direction) : setRenderTick(t => t + 1);
-                
+
       }, 200);
     }
   };
@@ -337,7 +337,7 @@ const Snake = () => {
           e.currentTarget.style.transform = 'scale(1)';
         }}
       >
-         {autoMoveIntervalRef.current ?  '⏹️ Player Control' : '🐍 Serpent Sense'}
+         {autoMoveIntervalRef.current ?  'Player Control' : 'Serpent Sense'}
       </button>
 
       {/* 🍎 Add 10 Apples */}
@@ -371,7 +371,7 @@ const Snake = () => {
       </button>
 
       <a
-        href="https://your-username.github.io/your-repo-name"
+        href="https://github.com/shams72/SnakeBot.git"
         target="_blank"
         rel="noopener noreferrer"
         style={{
