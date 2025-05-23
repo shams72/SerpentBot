@@ -4,7 +4,7 @@ const Rules = ({gridDimensions, showRules,setShowRules}) => {
   return (
     <div
       style={{
-        position: 'fixed',
+        position: 'relative',
         top: '50%',
         left: '50%',
         transform: 'translate(-50%, -47%)',
