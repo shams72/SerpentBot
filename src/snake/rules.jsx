@@ -7,7 +7,7 @@ const Rules = ({gridDimensions, showRules,setShowRules}) => {
         position: 'fixed',
         top: '50%',
         left: '50%',
-        transform: 'translate(-50%, -46%)',
+        transform: 'translate(-50%, -46.5%)',
         backgroundColor: '#121212',
         color: '#fff',
         border: '2px solid #00ff88',
