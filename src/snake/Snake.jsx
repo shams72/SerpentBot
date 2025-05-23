@@ -15,7 +15,6 @@ const Snake = () => {
   const autoMoveIntervalRef = useRef(null);
   const gridRef = useRef(gridDimensions);
 
-
   useEffect(()=>{
    const updateGridDimensions = () => {
       if (playArea.current) {
@@ -282,7 +281,6 @@ const Snake = () => {
     left: '50%',
     transform: 'translateX(-50%)',
     display: 'flex',          
-    border:"2px solid red",
     width:"80%",
     gap: '20px',
     zIndex: 1000,
@@ -354,11 +352,12 @@ const Snake = () => {
         style={{
           padding: '14px 30px',
           background: 'linear-gradient(135deg, #ff416c, #ff4b2b)',
+          border: "none",
           color: 'white',
           fontSize: '16px',
           fontWeight: 'bold',
           fontFamily: "'Orbitron', sans-serif",
-          border: 'none',
+
           borderRadius: '30px',
           cursor: 'pointer',
           boxShadow: '0 8px 15px rgba(255, 75, 43, 0.4)',
@@ -393,7 +392,6 @@ const Snake = () => {
           textDecoration: "none",
           textAlign: "center",
           lineHeight: "22px",
-          border: "2px solid #d0b3ff",
           boxShadow: "0 0 12px rgba(208, 179, 255, 0.5)",
           transition: "all 0.3s ease-in-out",
         }}
@@ -412,6 +410,7 @@ const Snake = () => {
 
 
     <div ref={playArea} className={"play-area"} onClick={handleClick}>   
+      {showRules && <Rules gridDimensions={gridDimensions} showRules={showRules} setShowRules={setShowRules} />}
       <div className="game-area">
         {snakeRef.current.map((segment, index) => (
         <div
@@ -449,7 +448,7 @@ const Snake = () => {
       Built with ❤️ using React.js
     </p>
     
-    {showRules && <Rules showRules={showRules} setShowRules={setShowRules} />}
+
 
     </>
   );

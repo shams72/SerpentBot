@@ -1,13 +1,13 @@
 import React from 'react';
 
-const Rules = ({showRules,setShowRules}) => {
+const Rules = ({gridDimensions, showRules,setShowRules}) => {
   return (
     <div
       style={{
-        position: 'fixed',
-        top: '37.4%',
-        left: '50%',
-        transform: 'translate(-50%, -30%)',
+        position: 'relative',
+        top: `${Math.floor(gridDimensions.rows / 2) * 20}px`,
+        left: `${Math.floor(gridDimensions.cols / 2) * 20}px`,
+        transform: 'translate(-50%, -48%)',
         backgroundColor: '#121212',
         color: '#fff',
         border: '2px solid #00ff88',
