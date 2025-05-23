@@ -2,7 +2,7 @@
   "name": "snake-game",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://shams72.github.io/SnakeBot",
+  "homepage": "https://shams72.github.io/SerpentBot",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",

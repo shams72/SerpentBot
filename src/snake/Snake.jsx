@@ -377,7 +377,7 @@ const Snake = () => {
       </button>
 
       <a
-        href="https://github.com/shams72/SnakeBot.git"
+        href="https://github.com/shams72/SerpentBot.git"
         target="_blank"
         rel="noopener noreferrer"
         style={{
