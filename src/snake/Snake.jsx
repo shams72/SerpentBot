@@ -5,8 +5,7 @@ import Rules from './rules';
 
 const Snake = () => {
   const playArea = useRef(null);
-  const snakeRef = useRef([]);
- 
+  const snakeRef = useRef([]); 
   const applesRef = useRef([]);
   const gridSize = 20; 
   const [_, setRenderTick] = useState(0);
@@ -224,7 +223,8 @@ const Snake = () => {
     if (e.target.tagName === 'BUTTON') return;
     if (snakeRef.current.some(segment => segment.x === x && segment.y === y)) return;
     if (applesRef.current.some(segment => segment.x === x && segment.y === y)) return;
-    
+    if (applesRef.current.length===120) return
+
     const { cols, rows } =  gridRef.current;
     if ( x < 0 || x >= cols ||  y < 0 || y >= rows) return;
 
@@ -235,7 +235,8 @@ const Snake = () => {
   const generateMultipleApples = (count = 10) => {
     const { cols, rows } = gridRef.current;
     let generated = 0;
-
+    if (applesRef.current.length === 120) return;
+    
     while (generated < count) {
       const x = Math.floor(Math.random() * cols);
       const y = Math.floor(Math.random() * rows);
