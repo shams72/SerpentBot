@@ -1,6 +1,6 @@
 # SerpentBot 
 
-A smart Snake game which uses Breadth-First Search (BFS) algorithm to intelligently hunt down its prey. Watch as the snake navigates the game board with purpose, always finding the optimal path to its next meal!
+A smart Snake game which uses Breadth-First Search (BFS) algorithm combined with the Manhattan distance heuristic to intelligently hunt down its prey. Watch as the snake navigates the game grid with purpose, always finding the optimal path to its next meal!
 
 ## Features
 
