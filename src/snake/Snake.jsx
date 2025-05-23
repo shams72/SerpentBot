@@ -337,10 +337,10 @@ const Snake = () => {
           e.currentTarget.style.transform = 'scale(1)';
         }}
       >
-         {autoMoveIntervalRef.current ?  'Player Control' : 'Serpent Sense'}
+         {autoMoveIntervalRef.current ?  'Keyboard Control' : 'Serpent Sense'}
       </button>
 
-      {/* 🍎 Add 10 Apples */}
+      {/* 🔴 Add 10 Prey */}
       <button
         onClick={() => generateMultipleApples(10)}
         style={{
@@ -367,7 +367,7 @@ const Snake = () => {
           e.currentTarget.style.transform = 'scale(1)';
         }}
       >
-        🍎 Add 10 Apples
+        🔴 Add 10 Prey
       </button>
 
       <a
