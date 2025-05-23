@@ -4,9 +4,9 @@ const Rules = ({gridDimensions, showRules,setShowRules}) => {
   return (
     <div
       style={{
-        position: 'relative',
-        top: `${Math.floor(gridDimensions.rows / 2) * 20}px`,
-        left: `${Math.floor(gridDimensions.cols / 2) * 20}px`,
+        position: 'fixed',
+        top: '50%',
+        left: '50%',
         transform: 'translate(-50%, -47%)',
         backgroundColor: '#121212',
         color: '#fff',
@@ -15,7 +15,6 @@ const Rules = ({gridDimensions, showRules,setShowRules}) => {
         padding: '1.5rem',
         maxWidth: '420px',
         width: '90%',
-        height: '87%',
         boxShadow: '0 0 20px rgba(0, 255, 136, 0.3)',
         zIndex: 999,
         fontSize: '16px',
