@@ -15,6 +15,7 @@ const Rules = ({gridDimensions, showRules,setShowRules}) => {
         padding: '1.5rem',
         maxWidth: '420px',
         width: '90%',
+        height: '84%',
         boxShadow: '0 0 20px rgba(0, 255, 136, 0.3)',
         zIndex: 999,
         fontSize: '16px',

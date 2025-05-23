@@ -357,7 +357,6 @@ const Snake = () => {
           fontSize: '16px',
           fontWeight: 'bold',
           fontFamily: "'Orbitron', sans-serif",
-
           borderRadius: '30px',
           cursor: 'pointer',
           boxShadow: '0 8px 15px rgba(255, 75, 43, 0.4)',
