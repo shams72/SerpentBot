@@ -223,7 +223,7 @@ const Snake = () => {
     if (e.target.tagName === 'BUTTON') return;
     if (snakeRef.current.some(segment => segment.x === x && segment.y === y)) return;
     if (applesRef.current.some(segment => segment.x === x && segment.y === y)) return;
-    if (applesRef.current.length===120) return
+    if (applesRef.current.length >= 120) return;
 
     const { cols, rows } =  gridRef.current;
     if ( x < 0 || x >= cols ||  y < 0 || y >= rows) return;
@@ -235,7 +235,7 @@ const Snake = () => {
   const generateMultipleApples = (count = 10) => {
     const { cols, rows } = gridRef.current;
     let generated = 0;
-    if (applesRef.current.length === 120) return;
+    if (applesRef.current.length >= 120) return;
     
     while (generated < count) {
       const x = Math.floor(Math.random() * cols);
