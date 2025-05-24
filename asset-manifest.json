@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/SerpentBot/static/css/main.2238e6a3.css",
-    "main.js": "/SerpentBot/static/js/main.1386ffc4.js",
+    "main.js": "/SerpentBot/static/js/main.0ef40de7.js",
     "static/js/453.0179cf6b.chunk.js": "/SerpentBot/static/js/453.0179cf6b.chunk.js",
     "static/media/logo.svg": "/SerpentBot/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/SerpentBot/index.html",
     "main.2238e6a3.css.map": "/SerpentBot/static/css/main.2238e6a3.css.map",
-    "main.1386ffc4.js.map": "/SerpentBot/static/js/main.1386ffc4.js.map",
+    "main.0ef40de7.js.map": "/SerpentBot/static/js/main.0ef40de7.js.map",
     "453.0179cf6b.chunk.js.map": "/SerpentBot/static/js/453.0179cf6b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2238e6a3.css",
-    "static/js/main.1386ffc4.js"
+    "static/js/main.0ef40de7.js"
   ]
 }
