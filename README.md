@@ -24,7 +24,7 @@ The SerpentBot employs a Breadth-First Search (BFS) algorithm combined with the 
 
 1. Clone the repository:
 ```bash
-git clone <https://github.com/shams72/SnakeBot.git>
+git clone <https://github.com/shams72/SerpentBot.git>
 ```
 
 2. Install dependencies:
